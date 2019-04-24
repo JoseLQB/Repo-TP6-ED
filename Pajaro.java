@@ -2,8 +2,7 @@
 public class Pajaro implements Cantante{
 	private String raza;
 	private int edad;
-	private String habitat;
-	private int tamaño;
+
 	private String color;
 	
 	public Pajaro() {
@@ -26,21 +25,6 @@ public class Pajaro implements Cantante{
 		this.edad = edad;
 	}
 
-	public String getHabitat() {
-		return habitat;
-	}
-
-	public void setHabitat(String habitat) {
-		this.habitat = habitat;
-	}
-
-	public int getTamaño() {
-		return tamaño;
-	}
-
-	public void setTamaño(int tamaño) {
-		this.tamaño = tamaño;
-	}
 
 	public String getColor() {
 		return color;
@@ -50,12 +34,10 @@ public class Pajaro implements Cantante{
 		this.color = color;
 	}
 
-	public Pajaro(String raza, int edad, String habitat, int tamaño, String color) {
+	public Pajaro(String raza, int edad, String color) {
 		
 		this.raza = raza;
 		this.edad = edad;
-		this.habitat = habitat;
-		this.tamaño = tamaño;
 		this.color = color;
 	}
 
