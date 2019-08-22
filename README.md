@@ -1,2 +1,2 @@
 # Repo-TP6-ED
-Ejercicio práctico utilizando branches en git para Entornos de Desarrollo. 
+Práctica de git para la asignatura Entornos de Desarrollo de 1º de DAW
